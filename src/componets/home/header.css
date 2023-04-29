@@ -1,0 +1,99 @@
+header{
+    background-image: url('../../../public/img/4.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    text-align: left;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+header h2{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+    text-transform: uppercase;
+}
+header p{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+header button{
+    text-align: center;
+    border: 1px solid;
+    height: 40px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px;
+    border-radius: 20px;
+    margin: 20px 5px 20px 0;
+    width: 130px;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+header .btn-1{
+    margin-left: 140px;
+}
+
+header button:hover{
+    transition: 0.3s all ease;
+    background: linear-gradient(rgb(126, 126, 160), rgb(185, 108, 108));
+}
+
+
+@media  (max-width:968px) and (min-width:540px){
+    header h2{
+        font-size: 30px;
+    }
+    header p{
+        font-size: 10px;
+    }
+    header .btn-1{
+        width: 200px;
+        height: 40px;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-left: 70px;
+    }
+    header .btn-2{
+        width: 200px;
+        height: 40px;
+        margin-bottom: 0px;
+        margin: 0px 0px 20px 70px;
+    }    
+}
+@media(max-width:539px){
+    header h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    header p{
+        box-sizing: border-box;
+        font-size: 16px;
+        text-align: center;
+        margin: 30px 15px;
+    
+    }
+    header .btn-1 , header .btn-2{
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+    header .btn-2{
+        text-transform: uppercase;
+        text-align: center;
+        margin: auto;
+        display: block;
+        margin-top: 15px;
+    }
+    
+      
+}
+    

@@ -1,0 +1,44 @@
+nav{
+        background: linear-gradient(#e66465, #9198e5);
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 0px;
+        margin: 0;
+        padding-bottom: 0px;
+        
+       
+}
+nav a{
+        margin: 0px ;
+        padding-left: 50px;
+        text-transform: uppercase;
+        font-weight: bold !important;
+        
+}
+nav img{
+        padding-left: 50px;
+        height: 70%;
+        margin-bottom: -4px
+       
+}
+nav button{
+        margin-right: 50px;
+}
+nav p{
+        padding-left: 45px;
+        font-size: 5px;
+}
+.nav-link{
+        margin: -8px -9px -8px 1px;
+}
+     
+#navbarScroll{
+        padding-left: 650px;
+}
+@media (max-width:968px){
+        #navbarScroll{
+                padding-left: 10px;
+        } 
+}
+        

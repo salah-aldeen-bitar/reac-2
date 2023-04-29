@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
+import ReactDOM from "react-dom/client";
 import './App.css';
+import Slide from './componets/slider';
+import Footer from './componets/footer';
+import Navbar1 from './componets/navbar';
+import { BrowserRouter , Route, Routes } from 'react-router-dom';
+import Index from './componets/index';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <BrowserRouter>
+      <div className='app'>
+        <Navbar1/>
+          
+          <Routes>
+              <Route path='/'element={<Index/>} />
+              <Route path='/slide' element={<Slide/>}/>
+              <Route path='/footer' element={<Footer/>}/>
+          </Routes>
+          
+        
+    
+        
+        <Footer/>
+        </div>
+    </BrowserRouter>
   );
 }
-
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
 export default App;

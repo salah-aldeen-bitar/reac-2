@@ -1,0 +1,46 @@
+.contanier{
+    margin: auto;
+}
+
+.row1{
+    
+    margin: auto;
+}
+.Slider{
+    padding-top: 1px;
+    padding-bottom: 100px;
+}
+
+.slide{
+    margin: auto;
+    width: 80%;
+    height: 400px;
+    
+}
+@media(max-width:580px){
+    .slide{
+        height: 200px;
+        width: 80%;
+    }
+    
+}
+.carousel-indicators{
+    position: absolute;
+    top:103%;
+    left: 0%;
+}
+
+.carousel-control-prev{
+    position: absolute;
+    left: -18%;
+}
+.carousel-control-next {
+    position: absolute;
+    right: -18px;
+
+}
+.contanier h2{
+    color: steelblue;
+    padding-top: 100px;
+
+}
